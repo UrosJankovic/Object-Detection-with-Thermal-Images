@@ -1,6 +1,6 @@
 train: ../KAIST_dataset/images/train2020/
 val: ../KAIST_dataset/images/val2020/
 
-nc: 2
+nc: 1
 
-names: ['person', 'car']
+names: ['person']
