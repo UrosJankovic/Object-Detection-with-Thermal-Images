@@ -17,7 +17,7 @@
 *.mov
 *.MOV
 *.avi
-*.data
+#*.data
 *.json
 *.txt
 
@@ -26,10 +26,10 @@
 
 storage.googleapis.com
 runs/*
-data/*
+#data/*
 wandb/*
-!data/images/zidane.jpg
-!data/images/bus.jpg
+data/images/zidane.jpg
+data/images/bus.jpg
 !data/coco.names
 !data/coco_paper.names
 !data/coco.data
