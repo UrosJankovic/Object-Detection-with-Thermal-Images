@@ -9,6 +9,7 @@
 *.JPG
 *.JPEG
 *.PNG
+!data/results/*.png
 *.BMP
 *.TIF
 *.TIFF
