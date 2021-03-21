@@ -43,8 +43,8 @@ $ ./test.py --img-size 416 --cfg cfg/yolov3.yaml --weights weights/yolov3.pt --d
 
 ### Thermal images object detection
 
-<img src ="https://github.com/UrosJankovic/Object-Detection-with-Thermal-Images/blob/master/data/results/resultsThermal.png" width="500">
+<img src ="https://github.com/UrosJankovic/Object-Detection-with-Thermal-Images/blob/master/data/results/resultsThermal.png" width="700">
 
 ### RGB images object detection
 
-<img src = "https://github.com/UrosJankovic/Object-Detection-with-Thermal-Images/blob/master/data/results/resultsThermal.png" width="500">
+<img src = "https://github.com/UrosJankovic/Object-Detection-with-Thermal-Images/blob/master/data/results/resultsRGB.png" width="700">
