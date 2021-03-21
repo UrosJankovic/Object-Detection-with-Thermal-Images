@@ -13,7 +13,7 @@ $ curl -LO http://multispectral.kaist.ac.kr/pedestrian/data-kaist/annotations.zi
  ```
 - Tree folder looks like this:
 ```
-├── KAIST_dataset
+├── dataset
 │   ├── images
 │   ├── labels
 ├── app
@@ -43,8 +43,14 @@ $ ./test.py --img-size 416 --cfg cfg/yolov3.yaml --weights weights/yolov3.pt --d
 
 ### Thermal images object detection
 
+- <strong>mAP:</strong> ```0.541```
+- <strong>Recall</strong> ```0.65```
+
 <img src ="https://github.com/UrosJankovic/Object-Detection-with-Thermal-Images/blob/master/data/results/resultsThermal.png" width="700">
 
 ### RGB images object detection
+
+- <strong>mAP</strong> ```0.583```
+- <strong>Recall</strong> ```0.699```
 
 <img src = "https://github.com/UrosJankovic/Object-Detection-with-Thermal-Images/blob/master/data/results/resultsRGB.png" width="700">
