@@ -38,7 +38,7 @@ logger = logging.getLogger(__name__)
 
 try:
     import wandb
-    os.environ["WANDB_API_KEY"] = "266ddf523f994f20a7bf8d9660fae72c6b8c7b90"
+    os.environ["WANDB_API_KEY"] = "ADD API KEY HERE"
 except ImportError:
     wandb = None
     logger.info("Install Weights & Biases for experiment logging via 'pip install wandb' (recommended)")
